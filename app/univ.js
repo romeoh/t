@@ -4,7 +4,7 @@ function action(_data) {
 		,post = ''
 
 	data.title = '私に似合う大学は？';
-	data.url = 'http://bitly.kr/ExB9lqhb';
+	data.url = 'https://bit.ly/395COrF';
 
 	idx1 = process(db1)
 	idx2 = process(db2)
