@@ -278,7 +278,8 @@ function validation(_data) {
 	M.storage('io.github.romeoh.user.platform', data.media);
 	if (M('#boyBox a').selector.length > 0) {
 		if (!M('#boyBox a').hasClass('checked') && !M('#girlBox a').hasClass('checked')) {
-			alert('성별을 선택해 주세요.');
+			//alert('성별을 선택해 주세요.');
+			alert('性別を選択してください。')
 			return false;
 		}
 		if (M('#boyBox a').hasClass('checked')) {
@@ -291,6 +292,7 @@ function validation(_data) {
 
 	if (M('#userName').selector.length > 0) {
 		if (M('#userName').val() === '') {
+			// 이름을 입력하세요.
 			alert('名前を入力してください。');
 			return false;
 		}
