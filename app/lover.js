@@ -5,7 +5,7 @@ function action(_data) {
 		,post = ''
 
 	data.title = '私の恋人の条件';
-	data.url = 'https://bit.ly/3a83fOQ';
+	data.url = 'https://bit.ly/2IZIA3B';
 
 	if (sexType == 'boy') {
 		// 씨의 여친의 조건
